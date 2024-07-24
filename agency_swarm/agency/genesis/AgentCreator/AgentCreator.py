@@ -10,5 +10,5 @@ class AgentCreator(Agent):
             instructions="./instructions.md",
             tools=[ImportAgent, CreateAgentTemplate, ReadManifesto],
             temperature=0.3,
-            model="gpt-4o-mini",
+            model="gpt-4o-mini-mini",
         )
